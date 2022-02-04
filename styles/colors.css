@@ -1,0 +1,16 @@
+:root{
+  --c-bg: rgb(255, 255, 255);
+  --c-txt: rgb(15, 15, 15);
+  --c-shadow: rgba(66, 68, 90, 1);
+  --c-hero-txt: rgb(255, 255, 255);
+}
+
+@media screen and (prefers-color-scheme:dark){
+  :root{
+    --c-bg:rgb(27, 27, 27);
+    --c-txt: rgb(230, 230, 230);
+    --c-shadow: rgba(0, 0, 0, 0.774);
+    --c-hero-txt: rgb(230, 230, 230);
+
+  }
+}
